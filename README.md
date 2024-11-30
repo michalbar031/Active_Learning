@@ -1,6 +1,6 @@
 # Active Learning for Image Classification
-![image](https://github.com/user-attachments/assets/d57f6060-457f-4545-b86b-643c5eca325c)
 
+<img src="https://github.com/user-attachments/assets/d57f6060-457f-4545-b86b-643c5eca325c" alt="Image" width="500">
 
 This repository contains the implementation and experimental results for the paper **"Active Learning for Image Classification"**, authored by Sergey Ilizirov, Michal Barsht, and Amir Steiner (November 2024). The project proposes an active learning strategy that integrates uncertainty-based sampling with CNN-based feature representations to optimize labeling efforts in image classification tasks.
 
@@ -25,10 +25,6 @@ The active learning system works iteratively:
 6. Repeat steps 2–5 for a predefined number of iterations or until performance converges.
 
 ## Experiments
-
-### Dataset
-The experiments were conducted on the **CIFAR-10 dataset**, containing 60,000 images across 10 classes, with 50,000 training and 10,000 test images.
-
 ### Baselines
 The proposed method was compared against:
 - **Random Sampling**: A baseline active learning strategy.
