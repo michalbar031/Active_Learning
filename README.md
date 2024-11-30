@@ -4,7 +4,6 @@ This repository contains the implementation and experimental results for the pap
 
 Active learning is a critical approach for reducing dependency on large labeled datasets by intelligently selecting the most informative samples for annotation. This project introduces a new active learning strategy tailored for image classification tasks, especially in domains with limited labeling budgets (e.g., medical imaging). Our method combines uncertainty-based sampling with CNN feature representations to identify and prioritize images for labeling, outperforming standard uncertainty and random sampling in most scenarios.
 
----
 
 ## Introduction
 
@@ -12,7 +11,6 @@ Deep learning models excel in image classification tasks but require large label
 - We leverage uncertainty metrics (e.g., entropy) to measure sample informativeness.
 - We enhance this with CNN feature clustering to identify similar samples with high uncertainty, enabling more targeted labeling efforts.
 
----
 
 ## Proposed Method
 
@@ -38,9 +36,8 @@ The proposed method was compared against:
 The proposed method demonstrated competitive performance, outperforming uncertainty sampling in most iterations, particularly in scenarios with minimal labeled data, highlighting its efficiency in labeling budgets.
 
 **Sample Graph:**
-![Accuracy vs. Iterations](result.png)
+![image](https://github.com/user-attachments/assets/04eb8ac9-7d94-4cc1-90de-f7d2aa9ad41e)
 
----
 
 ## How to Run the Code
 
